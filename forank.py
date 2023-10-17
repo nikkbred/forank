@@ -26,7 +26,7 @@ with st.container():
     
                 ''')
     with kol4:
-        av_logo = Image.open('av-logo.png')
+        av_logo = Image.open(r'av-logo.png')
         st.image(av_logo, caption=None, width=500)
 
 
