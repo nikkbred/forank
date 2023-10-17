@@ -15,7 +15,7 @@ with st.container():
     kol1, kol2, kol3, kol4 = st.columns(4)
     with kol1:
         st.header('Forankringslengde i berg')
-        st.write('Denne siden er laget basert på et innlegg av Arild Neby, Tunnel- og betongeksjonen Vegdirektoratet, 2015.')
+        st.write('Denne siden er laget basert på et innlegg av Arild Neby, Tunnel- og betongseksjonen Vegdirektoratet, 2015.')
         st.markdown(
                 f'''
                 Noen tips:
