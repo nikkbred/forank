@@ -45,7 +45,7 @@ with st.container():
 
         st.markdown('Etter å ha trykket på "Kalkuler", scroll ned for å se resultatet. :point_down:')
 
-        trykk = Image.open('trykk.jpg')
+        trykk = Image.open('trykk.JPG')
         st.image(trykk, caption='Heftfasthet og bruddvinkel basert på en bergarts trykkfasthet.')
 
     with right_column:
