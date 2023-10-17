@@ -57,7 +57,7 @@ with st.container():
         form = st.form(key='my_form')
         submit = form.form_submit_button(label='Kalkuler')
 
-        ba = Image.open('pics\ba.jpg')
+        ba = Image.open('ba.JPG')
         st.image(ba, caption='Tyngedetetthet, trykkfasthet og heftfasthet for vanlige bergarter.')
 
 
@@ -79,7 +79,7 @@ if submit:
     
                 ''')
 
-            ltb = Image.open('pics\ltb.JPG')
+            ltb = Image.open('ltb.JPG')
             st.image(ltb, caption='Formel')
 
         with st.container():
