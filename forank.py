@@ -5,7 +5,7 @@ import numpy as np
 from io import BytesIO
 import xlsxwriter
 
-st.set_page_config(page_title='Forankringslengde i berg', layout="wide")
+st.set_page_config(page_title='Forankringslengde i berg', layout="wide", page_icon=':mountain:')
 
 
 
