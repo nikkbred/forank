@@ -26,7 +26,7 @@ with st.container():
     
                 ''')
     with kol4:
-        av_logo = Image.open(r'av-logo.png')
+        av_logo = Image.open('av-logo.png')
         st.image(av_logo, caption=None, width=500)
 
 
@@ -45,7 +45,7 @@ with st.container():
 
         st.markdown('Etter å ha trykket på "Kalkuler", scroll ned for å se resultatet. :point_down:')
 
-        trykk = Image.open('pics\trykk.jpg')
+        trykk = Image.open('trykk.jpg')
         st.image(trykk, caption='Heftfasthet og bruddvinkel basert på en bergarts trykkfasthet.')
 
     with right_column:
@@ -95,7 +95,7 @@ if submit:
     
                 ''')
 
-            ltb2 = Image.open('pics\ltb2.jpg')
+            ltb2 = Image.open('ltb2.jpg')
             st.image(ltb2)
 
         with st.container():
@@ -111,10 +111,10 @@ if submit:
 
             left_col, right_col = st.columns(2)
             with left_col:
-                lampic = Image.open('pics\lampic.jpg')
+                lampic = Image.open('lampic.jpg')
                 st.image(lampic)
             with right_col:
-                lampic2 = Image.open('pics\lampic2.jpg')
+                lampic2 = Image.open('lampic2.jpg')
                 st.image(lampic2)
 
             forank = max(l_tb, l_tb2, lam)
