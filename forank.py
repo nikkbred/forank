@@ -26,7 +26,7 @@ with st.container():
     
                 ''')
     with kol4:
-        av_logo = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\av-logo.png')
+        av_logo = Image.open('pics\av-logo.png')
         st.image(av_logo, caption=None, width=500)
 
 
@@ -45,7 +45,7 @@ with st.container():
 
         st.markdown('Etter å ha trykket på "Kalkuler", scroll ned for å se resultatet. :point_down:')
 
-        trykk = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\trykk.jpg')
+        trykk = Image.open('pics\trykk.jpg')
         st.image(trykk, caption='Heftfasthet og bruddvinkel basert på en bergarts trykkfasthet.')
 
     with right_column:
@@ -57,7 +57,7 @@ with st.container():
         form = st.form(key='my_form')
         submit = form.form_submit_button(label='Kalkuler')
 
-        ba = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\ba.jpg')
+        ba = Image.open('pics\ba.jpg')
         st.image(ba, caption='Tyngedetetthet, trykkfasthet og heftfasthet for vanlige bergarter.')
 
 
@@ -79,7 +79,7 @@ if submit:
     
                 ''')
 
-            ltb = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\ltb.jpg')
+            ltb = Image.open('pics\ltb.jpg')
             st.image(ltb, caption='Formel')
 
         with st.container():
@@ -95,7 +95,7 @@ if submit:
     
                 ''')
 
-            ltb2 = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\ltb2.jpg')
+            ltb2 = Image.open('pics\ltb2.jpg')
             st.image(ltb2)
 
         with st.container():
@@ -111,10 +111,10 @@ if submit:
 
             left_col, right_col = st.columns(2)
             with left_col:
-                lampic = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\lampic.jpg')
+                lampic = Image.open('pics\lampic.jpg')
                 st.image(lampic)
             with right_col:
-                lampic2 = Image.open(r'C:\Users\niklas.brede\Documents\Prosjekter\boltforankring.streamlit.app\forank\forank\lampic2.jpg')
+                lampic2 = Image.open('pics\lampic2.jpg')
                 st.image(lampic2)
 
             forank = max(l_tb, l_tb2, lam)
