@@ -79,7 +79,7 @@ if submit:
     
                 ''')
 
-            ltb = Image.open('pics\ltb.jpg')
+            ltb = Image.open('pics\ltb.JPG')
             st.image(ltb, caption='Formel')
 
         with st.container():
@@ -95,7 +95,7 @@ if submit:
     
                 ''')
 
-            ltb2 = Image.open('ltb2.jpg')
+            ltb2 = Image.open('ltb2.JPG')
             st.image(ltb2)
 
         with st.container():
@@ -111,10 +111,10 @@ if submit:
 
             left_col, right_col = st.columns(2)
             with left_col:
-                lampic = Image.open('lampic.jpg')
+                lampic = Image.open('lampic.JPG')
                 st.image(lampic)
             with right_col:
-                lampic2 = Image.open('lampic2.jpg')
+                lampic2 = Image.open('lampic2.JPG')
                 st.image(lampic2)
 
             forank = max(l_tb, l_tb2, lam)
